@@ -1,0 +1,205 @@
+body 
+{
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: #c4ffe2 !important;
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.border 
+{
+    border-radius: 100%;
+}
+
+.intro 
+{
+    background-image: url("./Images/milky-way-in-the-night-sky-qm880qoivnph7k2b.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+p 
+{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    size: 5.625rem;
+}
+
+h1 
+{
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5.625rem;
+    text-align: center;
+}
+
+h1.text-body-emphasis 
+{
+    --bs-text-opacity: 1;
+    color: #e6ec70 !important;
+}
+
+.pro 
+{
+    text-decoration: underline;
+}
+
+section.body 
+{
+    background-color: #f0b7fa1f;
+    color: #121302;
+}
+
+img.my 
+{
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+}
+
+p.body 
+{
+    font-family: "Merriweather", serif;
+}
+
+hr.dotted-hr 
+{
+    border: dotted #d135f8 6px;
+}
+
+div.parent 
+{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    padding-bottom: 30px;
+}
+
+img.moon 
+{
+    margin-top: 0;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+
+.chilli-img 
+{
+    width: 63%;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+p.coding 
+{
+    font-family: "Merriweather", serif;
+}
+
+p.hot-wings 
+{
+    font-family: "Merriweather", serif;
+}
+
+h2.if 
+{
+    font-family: "Merriweather", serif;
+    color: #45eb9b !important;
+    text-align: center;
+}
+
+.btn 
+{
+    background: #ac55ea;
+    background-image: -webkit-linear-gradient(top, #ac55ea, #11999e);
+    background-image: -moz-linear-gradient(top, #ac55ea, #11999e);
+    background-image: -ms-linear-gradient(top, #ac55ea, #11999e);
+    background-image: -o-linear-gradient(top, #ac55ea, #11999e);
+    background-image: linear-gradient(to bottom, #ac55ea, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: 42%;
+}
+
+.btn:hover 
+{
+    background: #bf08f2;
+    background-image: -webkit-linear-gradient(top, #bf08f2, #9605aa);
+    background-image: -moz-linear-gradient(top, #bf08f2, #9605aa);
+    background-image: -ms-linear-gradient(top, #bf08f2, #9605aa);
+    background-image: -o-linear-gradient(top, #bf08f2, #9605aa);
+    background-image: linear-gradient(to bottom, #bf08f2, #9605aa);
+    text-decoration: none;
+}
+
+p.contact-message 
+{
+    text-align: center;
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+a.footer 
+{
+    color: #590462 !important;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: #eaf6f6 !important;
+}
+
+
+
+p.copyright 
+{
+    font-family: "Merriweather", serif;
+    color: #590462 !important;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.footer 
+{
+    background-color: #d17dfb7e;
+    padding: 50px 0 20px;
+}
+
+@media (max-width: 600px) 
+{
+    div.parent 
+    {
+        display: block;
+    }
+    div.moon 
+    {
+        padding-bottom: 30px;
+    }
+    div.chillies 
+    {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    a.btn 
+    {
+        margin-left: 35%;
+    }
+}
